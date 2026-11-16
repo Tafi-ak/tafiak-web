@@ -41,7 +41,7 @@ a:hover{
 
 
 .header-main .logo{
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 30px;
     color: white;
     padding: 3px;
@@ -79,7 +79,7 @@ a:hover{
 
 @media (max-width: 768px) {
   .header-main .logo{
-        font-size: 25px;
+        font-size: 22px;
   }
 
   .header-main .menu-toggle {
