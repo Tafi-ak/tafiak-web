@@ -40,11 +40,16 @@ a:hover{
 }
 
 
-.header-main .logo a{
+.header-main .logo{
     margin-left: 15px;
     font-size: 30px;
     color: white;
     padding: 3px;
+}
+
+
+.header-main .logo a{
+    color: white;
 }
 
 
