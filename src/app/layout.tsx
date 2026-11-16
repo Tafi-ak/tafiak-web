@@ -37,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
         {children}
 
-        <h1>This is footer</h1>
+        <p>This is footer</p>
         
         
         </body>

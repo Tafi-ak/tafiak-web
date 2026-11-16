@@ -11,7 +11,8 @@ export default function Navbar() {
 
   return (
     <header className="header-main">
-      <h1 className="logo">Abdullahil Kafi (tafiak)</h1>
+      <h1 className="logo"><Link href="/">Abdullahil Kafi (tafiak)</Link></h1>
+
 
       <nav className="nav-bar">
         {/* Mobile Toggle Button: Shows 3-line bar when closed, Cross when open */}
