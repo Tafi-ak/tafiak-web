@@ -5,6 +5,6 @@ export const metadata = {
 
 export default function About() {
   return (
-    <h1>Olympiad page</h1>
+    <p>Olympiad page $(a+b)^2$. </p>
   );
 }

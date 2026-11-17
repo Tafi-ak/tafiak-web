@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -40,6 +40,7 @@ export default function Navbar() {
           <li><Link href="/" onClick={closeMenu}>About</Link></li>
           <li><Link href="/now" onClick={closeMenu}>Now</Link></li>
           <li><Link href="/tafiak" onClick={closeMenu}>Tafiak</Link></li>
+          <li><Link href="/blog" onClick={closeMenu}>Blog</Link></li>
           <li><Link href="/olympiad" onClick={closeMenu}>Olympiad</Link></li>
           <li><Link href="/program" onClick={closeMenu}>Program</Link></li>
           <li><Link href="/contact" onClick={closeMenu}>Contact</Link></li>
