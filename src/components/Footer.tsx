@@ -14,14 +14,21 @@ export default function Footer() {
 
     <footer>
 
-      This is footer.
+      <div className="footer-main-content">
+        This is footer section.
+      </div>
+      
       <hr className="footer-line"/>
       <div className="footer-license-div">
-        &copy; {year} Abdullahil Kafi &bull; Source code under{" "}
-        <a href="https://github.com/Tafi-ak/tafiak-web/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
-          MIT License
-        </a>
-        . Personal content &amp; media reserved.
+        <p className="footer-copyright-text">
+          &copy; {year} Abdullahil Kafi &bull; <a href="https://github.com/Tafi-ak/tafiak-web/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"> MIT License</a>
+        </p>
+
+        <div className="footer-social-links">
+          <a href="https://www.linkedin.com/in/abdullahilkafi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://discord.com/users/819907792935976992" target="_blank" rel="noopener noreferrer">Discord</a>
+          <a href="https://github.com/Tafi-ak" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
       </div>
 
     </footer>
