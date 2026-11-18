@@ -12,21 +12,18 @@ export default function Footer() {
 
   return (
 
-    <footer className="border-t border-slate-800 bg-slate-950 text-slate-300">
-      {/* ...rest of your footer... */}
+    <footer>
 
-      <p>
-        © {year} Abdullahil Kafi · Source code under{" "}
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-slate-200 underline underline-offset-4 transition hover:text-sky-400"
-        >
+      This is footer.
+      <hr className="footer-line"/>
+      <div className="footer-license-div">
+        &copy; {year} Abdullahil Kafi &bull; Source code under{" "}
+        <a href="https://github.com/Tafi-ak/tafiak-web/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
           MIT License
         </a>
         . Personal content &amp; media reserved.
-      </p>
+      </div>
+
     </footer>
     
   );

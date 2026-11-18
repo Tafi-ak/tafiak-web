@@ -5,16 +5,6 @@ export const metadata = {
 
 export default function Now() {
   return (
-    <h1>Now page. A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-A paragraph is a self-contained unit of writing that deals with a single main idea, point, or topic. It usually consists of one or more sentences and begins on a new line, sometimes with an indent.
-</h1>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, hic. Quas hic laboriosam ipsa. Dolore numquam, omnis maxime, adipisci aperiam eligendi quibusdam expedita unde maiores dicta quo veritatis natus voluptatibus! </p>
   );
 }
