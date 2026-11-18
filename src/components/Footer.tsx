@@ -15,7 +15,33 @@ export default function Footer() {
     <footer>
 
       <div className="footer-main-content">
-        This is footer section.
+        <div className="footer-brand">
+          <h2>Tafiak</h2>
+          Here will be a nice quote.
+        </div>
+
+        <div className="footer-nav-stuffs">
+          <div className="footer-nav-things-1">
+            <h4>About me</h4>
+            <nav>
+              <li><Link href="/now">Now</Link></li>
+              <li><Link href="/tafiak">Tafiak</Link></li>
+              
+              <li><Link href="/contact">Contact</Link></li>
+
+            </nav>
+          </div>
+          
+          <div className="footer-nav-things-2">
+            <h4>Misc</h4>
+            <nav>
+              <li><Link href="/blog">Blog</Link></li>
+              <li><Link href="/olympiad">Olympiad</Link></li>
+              <li><Link href="/program">Program</Link></li>
+            </nav>
+          </div>
+          
+        </div>
       </div>
       
       <hr className="footer-line"/>
