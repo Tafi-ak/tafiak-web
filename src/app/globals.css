@@ -1,14 +1,18 @@
 
-*{
+*, *::before, *::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
 
 html, body {
-  height: 100%;
+  min-height: 100dvh;
+  overflow-x: clip;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-container {
