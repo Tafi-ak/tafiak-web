@@ -3,7 +3,7 @@ export const metadata = {
 }
 
 
-export default function About() {
+export default function Olympiad() {
   return (
     <p>Olympiad page $(a+b)^2$. </p>
   );

@@ -37,7 +37,6 @@ export default function Header() {
 
         {/* All navigation items go inside this list */}
         <ul className={`nav-items ${isOpen ? "open" : ""}`}>
-          <li><Link href="/" onClick={closeMenu}>About</Link></li>
           <li><Link href="/now" onClick={closeMenu}>Now</Link></li>
           <li><Link href="/tafiak" onClick={closeMenu}>Tafiak</Link></li>
           <li><Link href="/blog" onClick={closeMenu}>Blog</Link></li>

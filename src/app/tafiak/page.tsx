@@ -3,7 +3,7 @@ export const metadata = {
 }
 
 
-export default function About() {
+export default function Tafiak() {
   return (
     <h1>Tafiak Page</h1>
   );

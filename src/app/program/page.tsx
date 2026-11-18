@@ -3,7 +3,7 @@ export const metadata = {
 }
 
 
-export default function About() {
+export default function Program() {
   return (
     <h1>Program page</h1>
   );

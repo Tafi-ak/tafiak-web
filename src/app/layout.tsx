@@ -33,13 +33,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body>
 
-        <Header />
-        
-        <main>
-          {children}
-        </main>
+        <div className="page-container">
 
-        <Footer />
+          <Header />
+        
+          <main className="content">
+            {children}
+          </main>
+
+          <Footer />
+
+        </div>
+
+        
         
         
         </body>

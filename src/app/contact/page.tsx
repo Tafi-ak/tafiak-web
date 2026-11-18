@@ -3,7 +3,7 @@ export const metadata = {
 }
 
 
-export default function About() {
+export default function Contact() {
   return (
     <h1>Contact Us</h1>
   );
