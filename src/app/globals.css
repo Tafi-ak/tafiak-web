@@ -169,7 +169,6 @@ main{
     padding: 25px;
     box-sizing: border-box;
     width: 100%;
-    min-height: calc(100vh - 65px - 250px);
 }
 
 
