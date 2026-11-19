@@ -9,14 +9,7 @@ export default function About() {
       <Image
         src={mePhoto}
         alt="Abdullahil Kafi"
-        style={{
-          float: 'left',
-          height: '250px',
-          width: 'auto',
-          marginRight: '10px',
-          marginTop: '15px',
-          marginBottom: '10px',
-        }}
+        className="about-photo"
       />
 
       <p className="about-text">
@@ -36,7 +29,20 @@ export default function About() {
       </p>
 
       <style>{/* css */`
-        
+        .about-photo{
+          float: right;
+          height: 250px;
+          width: auto;
+          margin-left: 10px;
+          margin-top: 15px;
+          margin-bottom: 10px;
+        }
+        @media (max-width: 640px) {
+          .about-photo{
+            width: 160px;
+            height: auto;
+          }
+        }
       `}</style>
     </div>
   );
