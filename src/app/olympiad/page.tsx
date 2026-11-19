@@ -5,6 +5,8 @@ export const metadata = {
 
 export default function Olympiad() {
   return (
-    <p>Olympiad page $(a+b)^2$. </p>
+
+    <h1>Olympiad page</h1>
+
   );
 }

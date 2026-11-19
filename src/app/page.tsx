@@ -1,18 +1,11 @@
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: {
-    absolute: 'Abdullahil Kafi (tafiak)',
-  },
-};
-
-
-
+import Link from "next/link";
 
 export default function About() {
   return (
-    <>
-      <h1>About Page</h1>
-    </>
+    <section>
+
+      <h2>This is my personal website. Thanks for coming!</h2>
+      
+    </section>
   );
 }

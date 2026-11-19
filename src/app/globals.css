@@ -6,9 +6,12 @@
 
 html, body {
   overscroll-behavior-y: none;
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   color: #1a241d;
   background-color: #ffffff;
+}
+
+header, footer {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
 .page-container {
@@ -243,7 +246,7 @@ footer a:hover {
 /* ==================== MOBILE RESPONSIVE ==================== */
 @media (max-width: 768px) {
   .header-main .logo {
-    margin-left: 0; /* Aligns with .header-inner (90% width) */
+    margin-left: 0;
     font-size: 19px;
   }
 
@@ -251,7 +254,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0; /* Aligns toggle icon with the right 90% edge */
+    margin-right: 0;
     z-index: 1001;
   }
 
@@ -267,7 +270,7 @@ footer a:hover {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.14);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.22);
-    padding: 10px 5% 16px; /* Matches the 90% container sides */
+    padding: 10px 5% 16px;
     z-index: 1000;
     gap: 4px;
   }
