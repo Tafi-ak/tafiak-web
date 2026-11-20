@@ -5,6 +5,6 @@ export const metadata = {
 
 export default function Contact() {
   return (
-    <h1>Contact Us</h1>
+    <h1>Contact me</h1>
   );
 }

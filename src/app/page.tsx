@@ -1,11 +1,11 @@
 import Image from "next/image";
-import mePhoto from "../../public/images/me.jpg"; // Include 'public' in the relative path!
+import mePhoto from "../../public/images/me.jpg";
+import Link from "next/link";
 
 export default function About() {
   return (
     <div>
-      <h2>About me</h2>
-
+      <h1>About me</h1>
       <Image
         src={mePhoto}
         alt="Abdullahil Kafi"
@@ -25,12 +25,18 @@ export default function About() {
       </p>
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquam id non, laboriosam voluptas qui perspiciatis, unde sunt, beatae doloremque dolorum nam optio. Itaque atque quis repellat laborum a quidem!
+        This is my <a href="/">CV</a>.
       </p>
 
-      <p>
-        If you don’t have experience with proof-based problems, the first thing I
-      </p>
+      
+
+
+
+
+
+
+
+
 
       <style>{/* css */`
         .about-photo{

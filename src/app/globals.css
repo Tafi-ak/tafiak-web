@@ -39,6 +39,28 @@ main p {
   margin: 0.9375rem 0;
 }
 
+main a{
+  color:#5050ff;
+  text-decoration: none;
+}
+
+main a:hover{
+  color: #5050ff;
+  text-decoration: underline;
+}
+
+main h1{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 1.35rem;
+}
+
+main h2{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 1.1rem;
+}
+
+
+
 /* == HEADER === */
 .header-main {
   width: 100%;
