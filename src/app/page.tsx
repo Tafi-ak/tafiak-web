@@ -3,7 +3,7 @@ import mePhoto from "../../public/images/me.jpg"; // Include 'public' in the rel
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div>
       <h2>About me</h2>
 
       <Image
@@ -26,6 +26,10 @@ export default function About() {
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquam id non, laboriosam voluptas qui perspiciatis, unde sunt, beatae doloremque dolorum nam optio. Itaque atque quis repellat laborum a quidem!
+      </p>
+
+      <p>
+        If you don’t have experience with proof-based problems, the first thing I
       </p>
 
       <style>{/* css */`

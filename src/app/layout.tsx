@@ -38,7 +38,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Header />
         
           <main className="content">
-            {children}
+            <div className="each-page-box">
+              {children}
+            </div>
           </main>
 
           <Footer />
