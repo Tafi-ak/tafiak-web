@@ -41,7 +41,7 @@ export default function About() {
           margin-top: 15px;
           margin-bottom: 10px;
         }
-        @media (max-width: 640px) {
+        @media (max-width: 48rem) {
           .about-photo{
             width: 160px;
             height: auto;

@@ -30,7 +30,7 @@ main {
   width: 65%;
   max-width: 68.75rem;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1rem 0;
   font-size: 1.125rem;
   line-height: 1.4;
 }
@@ -128,7 +128,7 @@ main p {
 /* == EACH PAGE BOX == */
 .each-page-box {
   width: 100%;
-  padding: 1.875rem;
+  padding: 1.7rem;
   background-color: #ffffff;
   border: 1px solid #e4e4e7;
   border-radius: 0.3125rem;
@@ -301,7 +301,7 @@ footer a:hover {
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 48rem) {
   footer {
     padding: 1.75rem 0 1.25rem;
   }
@@ -346,6 +346,6 @@ footer a:hover {
   main {
     width: 100%;
     margin: 0 auto;
-    padding: 1.6875rem;
+    padding: 1rem;
   }
 }
