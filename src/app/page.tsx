@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <div>
-      <h1>About me</h1>
+      <h1>Abdullahil Kafi</h1>
       <Image
         src={mePhoto}
         alt="Abdullahil Kafi"
@@ -13,7 +13,7 @@ export default function About() {
       />
 
       <p className="about-text">
-        Hi. I am Abdullahil Kafi, currently studying in the 12th grade. I have a strong interest in mathematics, particularly Olympiad problem solving. Over the past four years, I actively engaged in mathematical exploration, focusing on different areas. This experience helped me to develop strong analytical thinking and problem solving skills.
+        Hi. I am Abdullahil Kafi. I have a strong interest in mathematics, particularly Olympiad problem solving. Over the past four years, I actively engaged in mathematical exploration, focusing on different areas. This experience helped me to develop strong analytical thinking and problem solving skills.
       </p>
 
       <p>
@@ -28,6 +28,29 @@ export default function About() {
         This is my <a href="/">CV</a>.
       </p>
 
+
+      <h2>Education</h2>
+
+      <p>
+        I am currently ... 
+      </p>
+
+
+
+
+      <h2>Activities</h2>
+
+      <p>Currently </p>
+
+      <p>Outside math, I love to ...</p>
+
+
+
+
+
+      <h2>Contact</h2>
+
+      <p>You can </p>
       
 
 

@@ -22,6 +22,9 @@ export default function Header() {
   const closeMenu = () => setIsOpen(false);
 
   return (
+
+    <>
+    
     <header className="header-main">
       <div className="header-inner">
         <Link href="/" className="logo" onClick={closeMenu}>
@@ -92,5 +95,32 @@ export default function Header() {
         </nav>
       </div>
     </header>
+
+
+    <section className="in-building">
+            The site is under construction now! For inquaries: <Link href="/contact"><strong>contact</strong></Link>
+    </section>
+
+
+
+
+    <style>{/* css */`
+      .in-building{
+        color: #ffffff;
+        background-color: #4299d7;
+        text-align: center;
+        font-size: 1rem;
+      }
+      .in-building a{
+        text-decoration: none;
+        color: blue;
+      }
+    `}
+
+    </style>
+
+
+
+    </>
   );
 }

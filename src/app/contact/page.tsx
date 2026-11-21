@@ -23,7 +23,7 @@ export default function Contact() {
 
 
 
-      <h2>Socail</h2>
+      <h2>Social</h2>
 
       <p>I&apos;d also love to connect through social media. Feel free to reach out on any of my profiles below:</p>
       
