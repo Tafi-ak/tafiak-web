@@ -8,7 +8,11 @@ export const metadata: Metadata = {
 export default function Now() {
   return (
     
-    <h1>Now page</h1>
+    <div>
+      
+      Currently working hard roughtly to finish building the website.
+
+    </div>
 
   );
 }
