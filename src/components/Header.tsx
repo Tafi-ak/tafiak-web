@@ -98,7 +98,7 @@ export default function Header() {
 
 
     <section className="in-building">
-            The site is under construction now! For inquaries: <Link href="/contact"><strong>contact</strong></Link>
+            Under construction now! For inquaries: <Link href="/contact"><strong>contact</strong></Link>
     </section>
 
 
