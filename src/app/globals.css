@@ -60,6 +60,12 @@ main h2{
 }
 
 
+code{
+  font-size: 13px;
+  background-color: #eaeaea;
+}
+
+
 
 /* == HEADER === */
 .header-main {

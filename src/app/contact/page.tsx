@@ -28,13 +28,13 @@ export default function Contact() {
       <p>I&apos;d also love to connect through social media. Feel free to reach out on any of my profiles below:</p>
       
       <ul className="list">
-        <li><b>Discord</b>: My Discord username is <a href="https://discord.com/users/819907792935976992" target="_blank" rel="noopener noreferrer">tafi_ak</a>, best for quick chats.</li>
+        <li><b>Discord</b>: My Discord username is <code><a href="https://discord.com/users/819907792935976992" target="_blank" rel="noopener noreferrer">tafi_ak</a></code>, best for quick chats.</li>
 
         <li><b>AoPS</b>: at <a href="https://artofproblemsolving.com/community/user/549337" target="_blank" rel="noopener noreferrer">Tafi_ak</a>. Don&apos;t hesitate to shoot me a PM.</li>
 
-        <li><b>Linkedln</b>: at <a href="https://www.linkedin.com/in/abdullahilkafi" target="_blank" rel="noopener noreferrer">abdullahilkafi</a>. I'd love to connect! I accept all requests, and adding a note is always appreciated.</li>
+        <li><b>Linkedln</b>: at <code><a href="https://www.linkedin.com/in/abdullahilkafi" target="_blank" rel="noopener noreferrer">abdullahilkafi</a></code>. I'd love to connect! I accept all requests, and adding a note is always appreciated.</li>
 
-        <li><b>GitHub</b>: at <a href="https://github.com/Tafi-ak" target="_blank" rel="noopener noreferrer">Tafi-ak</a>.</li>
+        <li><b>GitHub</b>: at <code><a href="https://github.com/Tafi-ak" target="_blank" rel="noopener noreferrer">Tafi-ak</a></code>.</li>
 
       </ul>
 
