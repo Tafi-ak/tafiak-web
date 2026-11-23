@@ -10,7 +10,7 @@ export default function Now() {
     
     <div>
       
-      Currently working hard roughtly to finish building the website.
+      Currently working hard to finish building the website.
 
     </div>
 
