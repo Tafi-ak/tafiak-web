@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="footer-main-content">
           <div className="footer-brand">
             <h2>Tafiak</h2>
-            <p className="footer-quote">Here will be a nice quote.</p>
+            <p className="footer-quote"><a href="mailto:kafi@tafiak.com">kafi@tafiak.com</a></p>
           </div>
 
           <div className="footer-nav-stuffs">

@@ -209,8 +209,9 @@ footer a:hover {
 }
 
 .footer-quote {
-  font-size: 0.9062rem;
+  font-size: 1.1rem;
   line-height: 1.55;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #b8c7bc;
   max-width: 21.25rem;
 }

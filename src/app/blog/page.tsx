@@ -7,6 +7,6 @@ export const metadata: Metadata = {
 
 export default function Blog() {
   return (
-    <h1>Blog here.</h1>
+    <h2 style={{textAlign: 'center'}}>No blog posts yet. Check back soon.</h2>
   );
 }
