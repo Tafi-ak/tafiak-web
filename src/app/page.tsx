@@ -20,41 +20,45 @@ export default function About() {
         priority
       />
 
+
+
       <p className="about-text">
-        Hi. I am Abdullahil Kafi, known online as <code>tafiak</code>. I have a strong interest in mathematics, particularly Olympiad problem solving. Over the past five years, I have actively engaged in mathematical exploration, focusing on different areas. This experience helped me to develop strong analytical thinking and problem-solving skills.
+        Hi, I&apos;m Abdullahil Kafi, known online as <Link href="/tafiak"><code>tafiak</code></Link>. I have a deep interest in mathematics, particularly Olympiad math. Over the past five years, I have actively explored various areas of mathematics, sharpening my analytical thinking and problem-solving skills. You can view my full background on my <Link href="/">CV</Link>.
       </p>
 
-
-      <p>
-        Although I am no longer actively competing, my journey in mathematics continues to influence the way I approach challenges and think critically. Currently I teach olympiad math worldwide.
-      </p>
-          
-      <p>
-        Beyond mathematics, I am interested in business and enjoy applying analytical thinking to real world problems to solve.
-      </p>
-
-      <p>
-        This is my <Link href="/">CV</Link>.
-      </p>
-
-      <h2>Education</h2>
-      <p>
-        I am currently studying in the 12th grade at Shahid Mamun Mahmud Police Lines School and College in Rajshahi, Bangladesh.
-      </p>
+      
 
       <h2>Activities</h2>
       <p>
-        Currently, I work with OTIS Math LLC and serve as a grader for the US Ersatz Math Olympiad (USEMO). I also contributed to translating the Olympiad book <em>Plane Geometry</em> into English and created Asymptote diagrams for Olympiad GeoGuessr.
+        I currently teach Olympiad math to students worldwide &mdash; see more on my <Link href="/program">program</Link> page.
+      </p>
+      <p>
+        While mathematics is my primary passion, I am equally enthusiastic about entrepreneurship and applying analytical thinking to real-world problems. Outside of my core studies and projects, I enjoy reading novels and books on entrepreneurship, as well as listening to music to relax and stay inspired.
+      </p>
+      <p>
+        For updates on my current work, priorities, and focus areas, visit my <Link href="/now">now</Link> page.
       </p>
 
+
+
+      <h2>Education</h2>
       <p>
-        Outside math, I love exploring business strategy, analytical problem solving, and building web projects.
+        I am currently completing my 12th grade at Shahid Mamun Mahmud Police Lines School and College in Rajshahi, Bangladesh. Earlier in my academic journey, I briefly attended Rajshahi Govt. City College before taking an unfortunate four-year hiatus, later resuming my studies to complete my higher secondary education.
       </p>
+
+
 
       <h2>Contact</h2>
       <p>
-        You can reach out via my <Link href="/contact">contact page</Link> or connect with me on LinkedIn and GitHub.
+        Feel free to <Link href="/contact">get in touch</Link> anytime.
       </p>
+
+
+
+
+
+
+
 
       <style>{/* css */`
         .about-photo{
