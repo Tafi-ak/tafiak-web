@@ -1,7 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
 import Link from "next/link";
+
 
 export default function Footer() {
   const [year, setYear] = useState(2026);
@@ -65,21 +67,21 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+              <FaLinkedin size={20} />
             </a>
             <a
               href="https://discord.com/users/819907792935976992"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discord
+              <FaDiscord size={20} />
             </a>
             <a
               href="https://github.com/Tafi-ak"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              <FaGithub size={20} />
             </a>
           </div>
         </div>

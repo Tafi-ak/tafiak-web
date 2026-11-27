@@ -41,7 +41,7 @@ export default function Tafiak() {
       </p>
 
       <p>
-        This site borrows a bit of the flavor of <a href="https://web.evanchen.cc/" target="_blank" rel="noopener noreferrer">Evan Chen</a>&apos;s personal website, especially on the <code>about</code> and <code>now</code> pages including styling the links in classic LaTeX blue.
+        This site borrows a bit of the flavor of <a href="https://web.evanchen.cc/" target="_blank" rel="noopener noreferrer">Evan Chen</a>&apos;s personal website, especially on the <code>about</code> page including styling the links in classic LaTeX blue.
       </p>
 
 
