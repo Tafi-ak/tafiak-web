@@ -23,7 +23,7 @@ export default function About() {
 
 
       <p className="about-text">
-        Hi, I&apos;m Abdullahil Kafi, known online as <Link href="/tafiak"><code>tafiak</code></Link>. I have a deep interest in mathematics, particularly Olympiad math and I&apos;m a retired contestant. Over the past five years, I have actively explored various areas of mathematics, sharpening my analytical thinking and problem-solving skills. You can view my full background on my <Link href="/">CV</Link>.
+        Hi, I&apos;m Abdullahil Kafi, known online as <Link href="/tafiak"><code>tafiak</code></Link>. I have a deep interest in mathematics, particularly Olympiad math and I&apos;m a retired contestant. Over the past five years, I have actively explored various areas of mathematics, sharpening my analytical thinking and problem-solving skills. You can view my full background on my <a href="/public/pdf/cv.pdf">CV</a>.
       </p>
 
       
