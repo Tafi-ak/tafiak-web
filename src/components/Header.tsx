@@ -9,7 +9,6 @@ const navLinks = [
   { href: "/now", label: "Now" },
   { href: "/tafiak", label: "Tafiak" },
   { href: "/blog", label: "Blog" },
-  { href: "/olympiad", label: "Olympiad" },
   { href: "/program", label: "Program" },
   { href: "/contact", label: "Contact" },
 ];

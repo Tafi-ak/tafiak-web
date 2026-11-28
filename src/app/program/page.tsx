@@ -7,6 +7,25 @@ export const metadata: Metadata = {
 
 export default function Program() {
   return (
-    <h1>Program page</h1>
+
+    <div>
+
+      <h1>Program</h1>
+
+      <p>
+        Currently, I ran a program for olympiad training for USAJMO and beyond.
+
+      </p>
+
+      
+
+    </div>
+
+
+
+
+
+
+    
   );
 }

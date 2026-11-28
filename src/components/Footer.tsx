@@ -39,7 +39,6 @@ export default function Footer() {
               <nav>
                 <ul>
                   <li><Link href="/blog">Blog</Link></li>
-                  <li><Link href="/olympiad">Olympiad</Link></li>
                   <li><Link href="/program">Program</Link></li>
                 </ul>
               </nav>
