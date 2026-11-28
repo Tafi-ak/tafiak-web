@@ -13,8 +13,11 @@ export default function Program() {
       <h1>Program</h1>
 
       <p>
-        Currently, I ran a program for olympiad training for USAJMO and beyond.
+        Currently, I run an Olympiad training program for USAJMO and beyond.
+      </p>
 
+      <p>
+        Here is the <a href="/pdf/syllabus.pdf">syllabus</a>.
       </p>
 
       
